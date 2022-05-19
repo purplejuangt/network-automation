@@ -1,6 +1,6 @@
 from netmiko import ConnectHandler
-
-hosts = ['11.11.11.1', '192.168.122.195']
+#automated show specific configurations for list of devices
+hosts = ['x', 'x']
 
 for ip in hosts:
 
