@@ -1,6 +1,6 @@
 from netmiko import ConnectHandler
 
-hosts = ['11.11.11.1', '192.168.122.195']
+hosts = ['x', 'x']
 
 for ip in hosts:
 
@@ -17,7 +17,7 @@ for ip in hosts:
 
     output = net_connect.send_command('show running-config')
     print(output)
-    f = open('/home/osiris/Documents/show-running {}.txt'.format(cisco_device['host']), 'r')
+    f = open('/x/x/x/x {}.txt'.format(cisco_device['host']), 'r')
     readingoldconf = f.read()
 
 
